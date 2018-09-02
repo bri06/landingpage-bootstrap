@@ -3,6 +3,12 @@
     color: #33CC33 !important;
 }
 
+#main .carousel-inner img {
+    max-height: 70vh; /* 70 viewport height*/
+    object-fit: cover; /* especifica cómo se debe cambiar el tamaño de un <img> o <video> para que se ajuste a su contenedor. */
+    filter: grayscale(70%);
+}
+
 #header img{
     width: 80px;
 }
