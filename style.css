@@ -32,6 +32,15 @@
     height: 100%; 
 }
 
+.btn-pumas {
+    background-color: #33CC33;
+    color: white;
+}
+
+.btn-pumas:hover {
+    background-color: rgb(40, 165, 40);
+}
+
 #footer {
     background: gray;
 }
