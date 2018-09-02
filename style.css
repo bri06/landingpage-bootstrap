@@ -13,6 +13,25 @@
     width: 80px;
 }
 
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute; /* Para que el overlay se expanda por todo el alto y ancho del carousel*/
+    top: 0;
+    bottom: 0; /* Para que no tenga espacio desde arriba ni desde abajo */
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Color negro con transparencia 0,5 */
+    color: white;
+}
+
+#carousel .overlay .container, 
+#carousel .overlay .row {
+    height: 100%; 
+}
+
 #footer {
     background: gray;
 }
