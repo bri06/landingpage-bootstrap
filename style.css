@@ -41,6 +41,15 @@
     background-color: rgb(40, 165, 40);
 }
 
+#place-time {
+   background-color: #343a40;
+   color: white;
+}
+
+#place-time img{
+    max-width: 100%;
+}
+
 #footer {
     background: gray;
 }
