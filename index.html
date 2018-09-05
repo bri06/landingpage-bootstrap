@@ -182,6 +182,65 @@
   </section>
   <!-- \Lugar y fecha del evento-->
 
+  <!-- Formulario para apuntarse al equipo -->
+  <section id="apuntarse-equipo" class="pt-2 pb-2 ml-5 mr-5 mb-5 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col text-uppercase text-center">
+          <small>Apuntate al equipo</small>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col text-center pb-4">
+            Únete a nosotros para la temporada 2018-2019
+          </div>
+      </div>
+      <form class="needs-validation pb-4" novalidate>
+        <div class="form-row"> <!-- Hacemos el form row y luego incluios una columna nueva-->
+          <div class="col-md-6 mb-3">
+            <label for="validationTooltip01">Nombre</label>
+            <input type="text" class="form-control" id="validationTooltip01" placeholder="Nombre" required>
+            <div class="valid-tooltip">
+              Introduzca un nombre
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="validationTooltip02">Apellido</label>
+            <input type="text" class="form-control" id="validationTooltip02" placeholder="Apellido" required>
+            <div class="valid-tooltip">
+              Introduzca un apellido
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltip03">Ciudad</label>
+            <input type="text" class="form-control" id="validationTooltip03" placeholder="Ciudad" required>
+            <div class="invalid-tooltip">
+              Por favor, introduzca una ciudad correcta.
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltip04">Provincia</label>
+            <input type="text" class="form-control" id="validationTooltip04" placeholder="Provincia" required>
+            <div class="invalid-tooltip">
+              Please provide a valid state.
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltip05">Código postal</label>
+            <input type="text" class="form-control" id="validationTooltip05" placeholder="código postal" required>
+            <div class="invalid-tooltip">
+              Introduzca un código postal válido
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-pumas" type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+  <!-- \Formulario-->
+
   <!-- Footer -->
   <footer id="footer" class="pb-4 pt-4"> <!-- Padding bottom y padding top -->
     <div class="container">
